@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha Princesas</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Jogo da Velha</h1>
+        </section>
+
+        <section id="containerPersonagens" class="containerPersonagens">
+            <h2>Selecione o <span id="ordemPersonagem">1º</span> personagem</h2>
+            <div>
+                <input type="button" value=" " id="princesas1" onclick="clickPrincesas('ariel')">
+                <input type="button" value=" " id="princesas2" onclick="clickPrincesas('aurora')">
+                <input type="button" value=" " id="princesas3" onclick="clickPrincesas('branca_de_neve')">
+            </div>
+            <div>
+                <input type="button" value=" " id="princesas4" onclick="clickPrincesas('cinderela')">
+                <input type="button" value=" " id="princesas5" onclick="clickPrincesas('Merida')">
+                <input type="button" value=" " id="princesas6" onclick="clickPrincesas('mulan')">
+            </div>
+        </section>
+
+        <section id="containerTabuleiro" class="tabuleiro">
+            <div>
+                <input type="button" value=" " id="btn1" onclick="clickBtn1()">
+                <input type="button" value=" " id="btn2" onclick="clickBtn2()">
+                <input type="button" value=" " id="btn3" onclick="clickBtn3()">
+            </div>
+            <div>
+                <input type="button" value=" " id="btn4" onclick="clickBtn4()">
+                <input type="button" value=" " id="btn5" onclick="clickBtn5()">
+                <input type="button" value=" " id="btn6" onclick="clickBtn6()">
+            </div>
+            <div>
+                <input type="button" value=" " id="btn7" onclick="clickBtn7()">
+                <input type="button" value=" " id="btn8" onclick="clickBtn8()">
+                <input type="button" value=" " id="btn9" onclick="clickBtn9()">
+            </div>
+
+            <section>
+                <h2>
+                    <span id="lblJogador">Jogador 1</span>
+                    <span id="lblJogadas">(1ª Jogada)</span>
+                </h2>
+
+                <input type="button" value="Reiniciar" id="btnReiniciar" onclick="clickReiniciar()">
+            </section>
+        </section>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
