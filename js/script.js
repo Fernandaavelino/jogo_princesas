@@ -17,12 +17,12 @@ let jogador1 = null;
 let jogador2 = null;
 
 // Personagens
-let ariel = "url('../img/ariel.png')";
-let aurora = "url('../img/aurora.png')";
-let branca_de_neve = "url('../img/branca_de_neve.png')";
-let cinderela = "url('../img/cinderela.png')";
-let Merida = "url('../img/Merida.png')";
-let mulan = "url('../img/mulan.png')";
+let ariel = "url('img/ariel.png')";
+let aurora = "url('img/aurora.png')";
+let branca_de_neve = "url('img/branca_de_neve.png')";
+let cinderela = "url('img/cinderela.png')";
+let Merida = "url('img/Merida.png')";
+let mulan = "url('img/mulan.png')";
 
 
 // Atribui imagens para escolha do personage
